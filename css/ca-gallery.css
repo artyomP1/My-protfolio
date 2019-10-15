@@ -100,7 +100,15 @@ body {
 .offcanvas-aside {
     position: fixed;
     height: 100%;
-    background: red;
+    /* background: rgb(197, 118, 118); */
+    background-image: url("../img/2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     width: 80vw;
     right: -80vw;
     z-index: 10;
@@ -128,8 +136,8 @@ body {
         margin-right: 30vw;
     }
     .offcanvas-aside {
-        width: 30vw;
-        right: -30vw;
+        width: 40vw;
+        right: -40vw;
     }
 }
 
