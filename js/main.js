@@ -9,6 +9,8 @@ function createProjects() {
         createProj('Blogin-website', 'Blogin', 'lorem ipsum lorem', 'lorem ipsum lorem ipsum lorem ipsum', "proj/blogin-site", 'aaaa', 'aaaaaaa', 'blogin-site'),
         createProj('Touchnums', 'Touch-nums', 'Touch the Numbers game', 'Touch Nums is an addicting, fun game that will test your reaction time and see how fast your fingers are.', "proj/touch-nums", 'aaaa', 'aaaaaaa', 'Touch-the-numbers'),
         createProj('GussWho', 'Guss-Who', 'lorem ipsum loremv', 'Tlorem ipsum lorem, florem ipsum lorem.', "proj/touch-nums", 'aaaa', 'aaaaaaa', 'GuessWho'),
+        createProj('BookShop', 'Book-shop', 'lorem ipsum loremv', 'Tlorem ipsum lorem, florem ipsum lorem.', "proj/touch-nums", 'aaaa', 'aaaaaaa', 'Book-shop'),
+        createProj('CollectThoseBalls', 'Collect-those-Balls', 'lorem ipsum loremv', 'Tlorem ipsum lorem, florem ipsum lorem.', "proj/touch-nums", 'aaaa', 'aaaaaaa', 'Ball-board'),
     ];
 }
 
