@@ -1,4 +1,4 @@
-"use strict"; // Start of use strict
+"use strict";
 
 function initPage() {
     renderProtfolio();
@@ -8,7 +8,6 @@ function renderProtfolio() {
     var projs = projects();
     var protfolioHTML = '';
     protfolioHTML = projs.map(function(proj) {
-        // var className = `img${count}`;
         return `<div class="col-md-4 col-sm-6 portfolio-item">
             <a onclick="onModalProj('${proj.id}')" class="portfolio-link" data-toggle="modal" href="#portfolioModal">
                 <div class="portfolio-hover">
