@@ -60,7 +60,7 @@ function renderModal(proj) {
                                 <!-- Project Details Go Here -->
                                 <h2>${proj.name}</h2>
                                 <p class="item-intro "> ${proj.title}</p>
-                                <img class="img-fluid d-block mx-auto" src="img/portfolio/${proj.name}.png" alt="">
+                                <a href="https://github.com/artyomP1/${proj.githube}"><img class="img-fluid d-block mx-auto" src="img/portfolio/${proj.name}.png" alt=""></a>
                                 <p>${proj.desc}</p>
                                 <ul class="list-inline">
                                     <li>Date: ${proj.publishedAt}</li>
