@@ -29,6 +29,10 @@ h6 {
     text-transform: uppercase;
 }
 
+.conect {
+    width: 300px;
+}
+
 section {
     padding: 100px 0;
 }
