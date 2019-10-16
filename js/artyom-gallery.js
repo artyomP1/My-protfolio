@@ -60,7 +60,7 @@ function renderModal(proj) {
                                 <!-- Project Details Go Here -->
                                 <h2>${proj.name}</h2>
                                 <p class="item-intro "> ${proj.title}</p>
-                                <a href="${proj.url}"><img class="img-fluid d-block mx-auto" src="img/portfolio/${proj.name}.png" alt=""></a>
+                                <a href="${proj.url}" target="_blank"><img class="img-fluid d-block mx-auto" src="img/portfolio/${proj.name}.png" alt=""></a>
                                 <p>${proj.desc}</p>
                                 <ul class="list-inline">
                                     <li>Date: ${proj.publishedAt}</li>

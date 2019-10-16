@@ -81,10 +81,10 @@ body {
 }
 
 .offcanvas-btn {
-    z-index: 100000;
+    z-index: 1000;
     position: fixed;
     bottom: 8%;
-    right: 3%;
+    right: 1.8%;
     height: 50px;
     width: 50px;
     background: #e2cb36;
@@ -95,6 +95,7 @@ body {
     cursor: pointer;
     margin-right: 0;
     transition: all 0.3s ease;
+    margin-bottom: 7px;
 }
 
 .offcanvas-btn-open {
@@ -375,6 +376,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .modal-content {
+    z-index: 1000001;
     min-height: 100%;
     padding: 0 0;
     text-align: center;
