@@ -33,6 +33,17 @@ h6 {
     width: 300px;
 }
 
+.lr {
+    z-index: 1051;
+    width: 140px;
+    font-size: 25px;
+}
+
+.lr .rl {
+    z-index: 1052;
+    font-size: 30px;
+}
+
 section {
     padding: 100px 0;
 }
@@ -100,6 +111,10 @@ body {
 
 .offcanvas-btn-open {
     margin-right: 80vw;
+}
+
+.modal-img {
+    border: 3px black solid;
 }
 
 .offcanvas-aside {
@@ -372,6 +387,7 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .modal-dialog {
     max-width: none;
     height: 100%;
+    color: white;
     margin: 0;
 }
 
@@ -406,6 +422,7 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal .modal-content p.item-intro {
     font-size: 16px;
+    color: white;
     font-style: italic;
     margin: 20px 0 30px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -443,30 +460,15 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .close-modal .lr {
-    /* Safari and Chrome */
     z-index: 1051;
     width: 140px;
     font-size: 25px;
-    /* height: 75px;
-    margin-left: 35px; */
-    /* IE 9 */
-    /* -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg); */
-    /* background-color: #222222; */
 }
 
 .portfolio-modal .close-modal .lr .rl {
-    /* Safari and Chrome */
     z-index: 1052;
-    /* width: 1px;
-    height: 75px; */
-    /* IE 9 */
-    /* -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg); */
     font-size: 30px;
-    /* background-color: #222222; */
+    color: white;
 }
 
 .portfolio-modal .modal-backdrop {
