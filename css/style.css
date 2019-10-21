@@ -94,7 +94,7 @@ body {
 .offcanvas-btn {
     z-index: 1000;
     position: fixed;
-    bottom: 8%;
+    bottom: 9%;
     right: 1.8%;
     height: 50px;
     width: 50px;
@@ -153,7 +153,8 @@ body {
 
 @media (min-width: 575px) {
     .offcanvas-btn-open {
-        margin-right: 30vw;
+        margin-right: 2vw;
+        margin-bottom: -4vh;
     }
     .offcanvas-aside {
         width: 40vw;
@@ -697,9 +698,11 @@ header.masthead .intro-text .intro-heading {
 
 footer {
     margin-top: 10px;
-    padding: 25px 0;
+    padding: 12px 0;
     text-align: center;
     background-color: #212529;
+    color: white;
+    margin-bottom: 0;
 }
 
 footer span.copyright {
@@ -736,6 +739,29 @@ ul.social-buttons li a {
     border-radius: 100%;
     outline: none;
     background-color: #222222;
+}
+
+.conect {
+    font-size: 2rem;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: white;
+    outline: none;
+    color: #e2cb36;
+}
+
+.connect-logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0px;
 }
 
 ul.social-buttons li a:active,
@@ -908,4 +934,32 @@ fieldset[disabled] .btn-xl:hover {
 
 .btn-close {
     float: right;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 120px;
+    right: 1.8%;
+    z-index: 3;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
+    background: #e2cb36;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.arrow-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    align-items: center;
 }
